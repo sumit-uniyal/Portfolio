@@ -74,7 +74,7 @@ export const PERSONAL_PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     github:"https://github.com/sumit-uniyal/Portfolio",
-    live:"https://book-my-show-virid-theta.vercel.app/",
+    live:"https://sumit-uniyal-full-stack-developer-portfolio.vercel.app/",
     technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
   },
   
