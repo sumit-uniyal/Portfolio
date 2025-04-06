@@ -12,7 +12,7 @@ export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer w
 
 export const EXPERIENCES = [
   {
-    year: "April 2024 - Present",
+    year: "April 2024 - Present", 
     role: "Software Developer",
     company: "Sagacious IP.",
     description: `Developed a Performance Management System (PMS) using React.js and Node.js, enhancing employee reviews and appraisals. Automated workflows reduced administrative overhead by 40%. Integrated real-time feedback and analytics for better decision-making. Optimized scalability with MongoDB, improving performance for 500+ users.`,
