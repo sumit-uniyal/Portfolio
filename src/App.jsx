@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Technologies from './components/Technologies'
@@ -20,8 +19,8 @@ const App = () => {
           <Navbar></Navbar>
           <Hero></Hero>
           <Technologies></Technologies>
-          <Projects></Projects>
           <PersonalProjects></PersonalProjects>
+          <Projects></Projects>
           <Exeperience></Exeperience>
           <Contact></Contact>
         </div>

@@ -3,10 +3,11 @@ import project2 from "../assets/projects/backend.png";
 import project3 from "../assets/projects/tracking_tool.png";
 import project4 from "../assets/projects/portfolio.png";
 import book_my_show from '../assets/projects/book_my_show.png'
+import food_delivery from '../assets/projects/food_delivery.png'
 
-export const HERO_CONTENT = `Experienced Full-Stack Developer with 2.7+ years of expertise in designing, developing, and deploying scalable web applications using Node.js and React. Skilled in front-end development with React Hooks and server-side programming with Node.js. Proficient in building RESTful APIs, integrating third-party services, and managing databases with MongoDB (NoSQL) and SQL.
+export const HERO_CONTENT = `Experienced Full-Stack Developer with 2.10+ years of expertise in software development methodologies, designing and deploying scalable web applications using Node.js and React. Skilled in interpreting technical specifications, writing clean code, and defining software requirements.Proficient in front-end development with React Hooks and server-side programming with Node.js.Experienced in RESTful APIs, third-party integrations, and data solutions using MongoDB and MySQL.
 
-Strong in performance optimization, troubleshooting complex issues, and implementing robust security measures. Experienced in code reviews, enhancing code quality, and implementing testing procedures to ensure reliability. A collaborative team player, well-versed in Git, agile workflows, and end-to-end MERN stack development..`;
+Strong abilities in problem solving, resolving issues, and attention to detail. Excellent teamwork and communication skills. Adept in conducting code reviews, enhancing code quality performing integration testing, and following agile methodologies.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -60,10 +61,19 @@ export const PROJECTS = [
 ];
 export const PERSONAL_PROJECTS = [
   {
+    title: "FOOD DELIVERY APP",
+    image: food_delivery,
+    description:
+      "This is a full-stack food ordering application developed using the MERN stack where customers can browse a menu, add items to a cart, and place orders. The project includes secure authentication via both traditional login/register and Google Sign-In. The frontend is built with React.js and styled using standard CSS, providing a clean and responsive user interface across devices. On the backend, Express.js and Node.js handle user management, cart operations, and order processing, with MongoDB managing data efficiently. The app uses JWT for user session management and includes proper validations, creating a seamless experience from browsing to checkout.",
+    github:"https://github.com/sumit-uniyal/Swiggy",
+    live:"https://swiggy-yucg.onrender.com",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express.js"],
+  },
+  {
     title: "BOOK MY SHOW CLONE",
     image: book_my_show,
     description:
-      "Built a complete movie ticket booking web application using the MERN stack, offering a seamless experience for both users and admins. The frontend was developed using React.js, Redux for state management, and styled with Tailwind CSS, delivering a responsive and modern UI. On the backend, Node.js and Express.js were used to create RESTful APIs, while MongoDB handled data storage efficiently. The application features secure JWT-based authentication, allowing role-based access for users and admins. Users can browse movies, select seats, choose show dates, and make real-time payments via the Razorpay Payment Gateway. The integration supports dynamic pricing and payment status handling. The admin panel allows adding and managing movie listings and viewing all booking details. The project demonstrates strong backend logic, clean UI design, third-party integration, and full-stack deployment experience.",
+      "This is a fully functional movie ticket booking application built using the MERN stack — React.js for the frontend, Node.js and Express.js for the backend, and MongoDB for data management. The application allows users to browse available movies, view details, select seats, and make payments securely through Razorpay integration. It features secure user authentication and session management using JWT stored in HTTP-only cookies. The frontend is responsive and styled using Tailwind CSS, with Redux used for efficient state management. Backend APIs are modular and scalable, handling all core features like movies, users, and bookings, with proper error handling and validation mechanisms implemented.",
     github:"https://github.com/sumit-uniyal/Book-My-Show",
     live:"https://book-my-show-virid-theta.vercel.app/",
     technologies: ["HTML", "CSS", "Tailwind CSS", "React", "Node.js", "MongoDB", "Express.js"],
