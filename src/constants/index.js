@@ -1,7 +1,9 @@
 import project1 from "../assets/projects/pms.png";
-import project2 from "../assets/projects/backend.png";
+import project2 from "../assets/projects/reportgenrator.png";
 import project3 from "../assets/projects/tracking_tool.png";
 import project4 from "../assets/projects/portfolio.png";
+import project5 from "../assets/projects/hrdashboard.png";
+import project6 from "../assets/projects/backend.png";
 import book_my_show from '../assets/projects/book_my_show.png'
 import food_delivery from '../assets/projects/food_delivery.png'
 
@@ -44,17 +46,31 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Tailwind CSS", "React", "Node.js", "MongoDB", "Express.js"],
   },
   {
-    title: "Backend API Development & Modular System Enhancement",
+    title: "AI Report Genrator",
     image: project2,
     description:
-      "Developed and optimized backend API services with database integration, enhancing system efficiency and reliability. Built key modules like HR Dashboard, Quality Tracker, Timesheet, and Ticketing System, creating a dynamic and interactive user experience. Improved team productivity by implementing efficient state management and issue tracking",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Built an AI-powered report generation tool for Intellectual Property analysis using the ChatGPT API. The system accepts custom prompts from users and dynamically generates detailed, structured reports, streamlining documentation for legal, technical, and executive review. Integrated secure prompt handling, response formatting, and export functionality to enhance productivity and ensure data accuracy across platforms",
+    technologies: ["HTML", "CSS", "React", "Node.js","MongoDB"],
   },
   {
     title: "Intellectual Property Management & Innovation Tracking Tool",
     image: project3,
     description:
       "Developed a tool to manage Intellectual Property and streamline the innovation process, providing clear insights for admins and executives. Built a real-time tracking system for inventors, enhancing transparency in monetization. Optimized API integration, database performance, and version control to ensure efficient development and seamless user experience across devices.",
+    technologies: ["HTML", "CSS", "Tailwind CSS", "React", "Node.js", "MongoDB", "Express.js"],
+  },
+  {
+    title: "HR Dashboard",
+    image: project5,
+    description:
+      "Developed a comprehensive HR dashboard to streamline the entire employee lifecycle from onboarding to offboarding. Implemented features for efficient attendance tracking, leave management, and timesheet monitoring, providing HR and managers with real-time insights. Integrated automated workflows to simplify approvals and reduce manual errors. Optimized data synchronization across platforms, ensuring smooth performance and a seamless user experience across devices",
+    technologies: ["HTML", "CSS", "Tailwind CSS", "React", "Node.js", "MongoDB", "Express.js"],
+  },
+  {
+    title: "Quality Tracker App",
+    image: project6,
+    description:
+      "Developed a Quality Tracker system to evaluate project standards at key development stages. The tool analyzes client feedback to identify gaps, track recurring issues, and assess overall quality. By aligning feedback with project milestones, it enables teams to proactively resolve issues and gain a clearer understanding of client expectations, ultimately improving delivery precision and client satisfaction.",
     technologies: ["HTML", "CSS", "Tailwind CSS", "React", "Node.js", "MongoDB", "Express.js"],
   },
   

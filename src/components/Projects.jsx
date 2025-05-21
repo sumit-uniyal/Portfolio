@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { PROJECTS } from '../constants';
 import { motion } from 'framer-motion';
 
 const Projects = () => {
+  const [showAll, setShowAll] = useState(false);
+
+  const displayedProjects = showAll ? PROJECTS : PROJECTS.slice(0, 3);
+
   return (
     <div className="pb-4">
       <motion.h2
@@ -16,7 +20,7 @@ const Projects = () => {
 
       {/* Grid with 3 columns on large screens */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
-        {PROJECTS.map((project, index) => (
+        {displayedProjects.map((project, index) => (
           <motion.div
             key={index}
             whileInView={{ opacity: 1, y: 0 }}
@@ -41,6 +45,18 @@ const Projects = () => {
           </motion.div>
         ))}
       </div>
+
+      {/* Show More / Show Less Button */}
+      {PROJECTS.length > 3 && (
+        <div className="text-center mt-10">
+          <button
+            onClick={() => setShowAll(!showAll)}
+            className="px-6 py-2 text-sm font-semibold bg-blue-600 text-white rounded hover:bg-blue-500 transition"
+          >
+            {showAll ? 'Show Less' : 'Show More'}
+          </button>
+        </div>
+      )}
     </div>
   );
 };
